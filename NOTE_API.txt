@@ -1,0 +1,60 @@
+    To make a request with an API, we have to follow these 2 steps:
+    
+    // 1. GET the data (fetch)
+    // 2. Save the data to state
+
+____________________________________________________________________________________________________________________________    
+
+What is JSON and why we use it?
+
+JavaScript Object Notation (JSON) 
+is a standard text-based format for representing structured data based on JavaScript object syntax. 
+It is commonly used for transmitting data in web applications 
+(e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa).
+
+____________________________________________________________________________________________________________________________    
+JSON.stringify()  :>>>
+
+A common use of JSON is to exchange data to/from a web server.
+When sending data to a web server, the data has to be a string.
+Convert a JavaScript object into a string with JSON.stringify().
+
+refer : https://www.w3schools.com/js/js_json_stringify.asp
+
+eg:
+    const obj = {name: "John", age: 30, city: "New York"};
+    Use the JavaScript function JSON.stringify() to convert it into a string.
+    
+    const myJSON = JSON.stringify(obj);
+
+    The result will be a string following the JSON notation.
+    
+    "myJSON" is now a "string", and ready to be sent to a server:
+
+____________________________________________________________________________________________________________________________    
+
+useEffect() >>>  Hook Effect , in documentation
+is a tool, React has given us to interact with the outside of the React ecosystem
+which usually consists of the :
+
+1.state
+2.props
+3.UI : user interface, that it puts on the page
+
+>>> It is also a tool, which allows us to synchronize react states with outside-systems :
+like: local-storage
+      API  
+
+refer link : https://reactjs.org/docs/hooks-effect.html
+
+____________________________________________________________________________________________________________________________    
+refer link :
+https://overreacted.io/a-complete-guide-to-useeffect/
+
+____________________________________________________________________________________________________________________________    
+one thing to remember :
+
+anything we put in call back function is guaranteed to run 
+only after displaying the UI in return function (after printing UI)
+
+____________________________________________________________________________________________________________________________    

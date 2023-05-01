@@ -1,0 +1,5 @@
+1. Event listeners
+2. State
+3. Conditional rendering
+4. Forms
+5. Side effects

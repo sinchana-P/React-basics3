@@ -1,0 +1,34 @@
+Handling Multiple Inputs:
+
+When you need to handle multiple controlled input elements,
+you can add a name attribute to each element and let the handler function choose what to do based on the value of 
+event.target.name.
+
+ES6 features, Provides us >> [] >> computed properties >> can fix the syntax error by "[] & . "
+        >> surrounds KEY in [] >> can use "DYNAMIC-STRING" (like something saved in variable) into property name for our object.
+
+
+
+    function handleChange(event) {
+        setFormData(prevFormData => {
+            return {
+                ...prevFormData,
+                [event.target.name]: event.target.value
+            }
+        })
+    }
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+The e is short for event
+
+>>> The simplest way to create an event is to click somewhere on the page.
+
+>>> When you click, a click event is triggered. 
+This event is actually an object containing information about the action that just happened. 
+
+                                        or
+
+>>> The parameter e that you are asking about is an Event object, and it represents the event being fired which caused your function to be executed. 
+It doesn't really have to be e, you can name it anything you want just like all other function parameters.
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+

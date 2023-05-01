@@ -1,0 +1,27 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0; 
+    background: rgba(115, 115, 220, 0.2);
+    max-height: 100vh;
+}
+
+.container {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:start;
+    background-color: rgba(158, 158, 229, 0.2);
+    padding: 80px;
+}
+
+.punchline {
+    padding: 30px;
+}
+
+button {
+    size: 40px;
+}

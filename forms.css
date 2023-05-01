@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 2rem;
+    background-color: rgb(10, 9, 10);
+}
+
+form {
+    padding: 50px; 
+    background-color: rgba(125, 119, 125, 0.281);
+    width: max-content;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.51);
+}
+
+input{
+    border-radius: 100px;
+    border: 1px solid black;
+    margin-block: 20px;
+    display: block;
+    height: 4rem;
+    width: 300px;
+    text-indent: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+input[type="email"] {
+    text-transform: lowercase;
+}
+
+input#isFriendly {
+    width: 20px;
+    height: 20px;
+    display: inline;
+}
+
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    margin-right: 0.75rem;   
+}
+
+label {
+    font-size: 24px;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.75rem;
+
+}
+
+input[type="submit"] {
+    padding: 10px;
+}
+
+textarea {
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    display: block;
+    text-indent: 30px;
+    padding-top: 20px ;
+    width: 350px;
+    height: 250px;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+select {
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    text-indent: 16px;
+    font-size: 24px;
+    border-radius: 18px;
+}
+
+select:hover{
+    color: white;
+    background-color: black;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    text-indent:center;
+    font-size: 24px;
+    border-radius: 18px;
+    display: block;
+    margin-left: auto; 
+    border: none;  
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+}

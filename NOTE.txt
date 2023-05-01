@@ -1,0 +1,49 @@
+1. CONTEXT
+2. REDUX    --> 3rd party state management
+
+
+* whenever we use,
+.map() method on array, 
+don't forget to add key property to get rid of error.
+i.e.   key={oldBox.id}
+
+__________________________________________________________________________________________________________________
+Error:
+react.development.js:245 
+Warning: Each child in a list should have a unique "key" prop.
+
+Check the render method of `App`. 
+See https://reactjs.org/link/warning-keys for more information.
+    at Box
+    at App (<anonymous>:45:33)
+
+__________________________________________________________________________________________________________________
+REMEMBER:
+A component shd never modify the incoming props 
+
+But we can achieve this by :
+Creating new state in existing component, 
+and set default value to the incoming value from props.
+and now we can change the value of incoming props , 🙃 indirectly :) 
+
+refer file --> boxes3
+
+_____________________________________________________________________________________________________________________
+Here,
+we have used setState,
+almost only within the functions
+or in empty space 
+
+______________________________________________________________________________________________________________________
+Try to use 
+.map() method, instead of C-for loop on arrays to iterate
+
+______________________________________________________________________________________________________________________
+Conditional-rendering & ternary operator , are used in combination most of the time.
+
+______________________________________________________________________________________________________________________
+
+can use "()"
+        instead of " return {} "
+
+______________________________________________________________________________________________________________________

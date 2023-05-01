@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="forms.css">
+    </head>
+    <body>
+        <textarea>
+            Hello there, this is some text in a text area
+        </textarea>
+        <label>
+            Essay:
+            <textarea value={this.state.value} ></textarea>
+          </label>
+  
+          
+
+        <form 
+            action="https://my-php-backend.com" 
+            method="POST"
+            id="my-form"
+        >
+            <label for="first-name">First Name: </label>
+            <input 
+                type="text" 
+                id="first-name" 
+                name="firstName" 
+                class="input" 
+            />
+            <br />
+            <label for="last-name">Last Name: </label>
+            <input 
+                type="text" 
+                id="last-name" 
+                name="lastName" 
+                class="input" 
+            />
+            <br />
+            <input type="submit" value="Submit" />
+        </form>
+        
+        <script src="index.pack.js"></script>
+    </body>
+</html>
+
+
+ <!-- NOTE : REFER >>>
+ https://reactjs.org/docs/forms.html -->
+
+ <!-- Controlled Components:
+
+    In HTML, form elements such as <input>, <textarea>, and <select> 
+    typically maintain their own state and update it based on user input. 
+    In React, mutable state is typically kept in the state property of components, and only updated with setState(). 
+
+    An input form element whose value is controlled by React in this way is called a “controlled component”.
+
+    Since the value attribute is set on our form element, the displayed value will always be this.state.value, making the React state the source of truth. 
+    Since handleChange runs on every keystroke to update the React state, the displayed value will update as the user types.
+
+
+-->

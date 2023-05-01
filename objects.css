@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: fit-content;
+    width: 400px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+    -webkit-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+    -moz-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+}
+
+.card--image {
+    width: 100%;
+    padding: 10%;
+    padding-bottom: 0;
+
+}
+
+.card--name {
+    margin-block: 13px;
+    color: #333333;
+    margin-left: 80px;
+}
+
+.card--info {
+    padding: 10px;
+    
+}
+
+.card--favorite {
+    border-radius: 50%;
+    width: 25px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.card--favorite:hover {
+
+    background-color: rgba(230, 179, 84, 0.281);
+}
+
+.card--contact {
+    font-size: 0.75rem;
+    color: gray;
+    margin-block: 7px;
+    margin-left: 80px;
+}

@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(19, 66, 219, 0.356);
+    color: whitesmoke;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.3rem;
+}
+
+.container{
+    width: max-content;
+    height: fit-content;
+    padding: 7rem;   
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10%;
+    color:rgba(20, 15, 15, 0.726);
+    /*      background-color: rgba(228, 187, 172);  */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+ 
+button {
+    width: 100%;
+    background-color: transparent;
+    padding: 1rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #FFFEF1;
+    color: #2C5E2E;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.lists{
+    padding: 1rem ;
+}
